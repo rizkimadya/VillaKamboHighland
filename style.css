@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+* {
+	font-family: Open Sans;
+}
+
+#hero {
+	margin-top: 70px;
+	background-image: url("bghero.png");
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+#hero img {
+	cursor: pointer;
+}
+#hero .dropdown-menu {
+	background: #ffffff;
+	box-shadow: 20px 34px 114px rgba(0, 0, 0, 0.12);
+	border-radius: 9px;
+	border: none;
+	padding: 20px;
+}
+#hero a {
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	padding: 12px 70px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 30px;
+}
+#hero a:hover {
+	background: #01b9ae;
+	border-radius: 27px;
+	color: #fff;
+}
+#hero .logo img {
+	width: 240px;
+	display: flex;
+	justify-content: center;
+	margin: 40px auto;
+}
+#hero .logo p {
+	text-align: center;
+	margin: 0px auto;
+	width: 760px;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 29px;
+}
+
+#room {
+	padding-top: 100px;
+	overflow: hidden;
+	padding-bottom: 64px;
+	background-color: #f1f6f6;
+}
+#room .title {
+	font-family: Open Sans;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 56px;
+	width: 560px;
+}
+#room .btn-room {
+	background-color: #00b4a9;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 13px 40px;
+	border-radius: 30px;
+	line-height: 22px;
+}
+
+#room .card {
+	border: none;
+	padding: 24px;
+	background: #ffffff;
+	box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.08);
+	border-radius: 12px;
+}
+#room .card img {
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+	margin-bottom: 8px;
+	border-radius: 12px;
+}
+#room .card .btn-details {
+	margin-top: 24px;
+	display: block;
+	padding: 13px;
+	border-radius: 24px;
+	background-color: #00b4a9;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+	text-align: center;
+}
+#room .card .keterangan {
+	margin: 16px 0px 4px 0px;
+	color: #00b4a9;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 16px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+#room .card .nama {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 28px;
+	letter-spacing: 0.01em;
+}
+#room .card ul li {
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+}
+#room .card .harga .col-6 {
+	border-left: 2px solid #00b4a9;
+}
+#room .card .harga .nominal {
+	margin-bottom: 4px;
+	color: #00b4a9;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 27px;
+}
+#room .card .harga .waktu {
+	color: rgba(0, 0, 0, 0.6);
+	margin: 0;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+}
+
+#gallery {
+	background-color: #fff;
+	overflow: hidden;
+	padding: 120px 0px;
+}
+#gallery .keterangan {
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: #01b9ae;
+}
+#gallery .left {
+	font-family: Open Sans;
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 90px;
+	letter-spacing: 0em;
+	margin: 0;
+	text-align: left;
+}
+#gallery .right {
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: -0.011em;
+	text-align: left;
+}
+
+#testimoni {
+	background-color: #f1f6f6;
+	padding: 60px 0px;
+}
+#testimoni .keterangan {
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	margin-bottom: 8px;
+	color: #01b9ae;
+}
+#testimoni .subket {
+	font-family: Open Sans;
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 90px;
+	letter-spacing: 0em;
+	width: 554px;
+}
+
+#room .carousel {
+	margin: 60px 0px;
+	/* padding: 0px 30px; */
+	/* background-color: #f1f6f6; */
+}
+#room .carousel-cell {
+	opacity: 0.6;
+}
+
+#room .carousel .is-selected {
+	opacity: 1;
+}
+#room .carousel ol {
+	margin-left: 10px;
+	margin-bottom: -40px;
+}
+#room .carousel ol .is-selected {
+	background-color: #00b4a9;
+}
+#room .flickity-button {
+	background-color: #fff;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	color: #00b4a9;
+	margin-left: -40px;
+}
+#room .next {
+	margin-right: -40px;
+}
+#room .flickity-button-icon {
+	width: 10px;
+	margin-left: 10px;
+}
+#room .carousel-cell {
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+/* cell number */
+#room .carousel-cell:before {
+	display: block;
+	text-align: center;
+	line-height: 200px;
+	font-size: 80px;
+	color: white;
+}
+
+/* gallery */
+#gallery .carousel {
+	margin: 60px 0px 40px 0px;
+}
+#gallery .carousel-cell img {
+	height: 500px;
+	width: 350px;
+	object-fit: cover;
+	border-radius: 12px;
+}
+#gallery .carousel-cell {
+	opacity: 0.6;
+}
+
+#gallery .carousel .is-selected {
+	opacity: 1;
+}
+#gallery .carousel ol {
+	margin-left: 10px;
+	margin-bottom: -40px;
+}
+#gallery .carousel ol .is-selected {
+	background-color: #00b4a9;
+}
+#gallery .flickity-button {
+	background-color: #fff;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	color: #00b4a9;
+	margin-left: -20px;
+}
+#gallery .flickity-button-icon {
+	width: 10px;
+	margin-left: 10px;
+}
+
+@media (max-width: 575.98px) {
+	#hero {
+		margin-top: 40px;
+		background-image: url("bghero.png");
+		width: 100%;
+		height: 100vh;
+		background-position: center;
+		background-size: cover;
+	}
+	#hero .logo img {
+		width: 160px;
+		display: flex;
+		justify-content: center;
+		margin: 30px auto;
+	}
+	#hero .logo p {
+		text-align: center;
+		margin: 0px auto;
+		width: auto;
+		font-family: Inter;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 24px;
+	}
+	#room {
+		padding-top: 40px;
+		overflow: hidden;
+		padding-bottom: 64px;
+		background-color: #f1f6f6;
+	}
+	#room .title {
+		font-family: Open Sans;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 56px;
+		width: auto;
+	}
+	#gallery {
+		padding-top: 40px;
+	}
+	#gallery .left {
+		font-family: Open Sans;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 40px;
+		letter-spacing: 0em;
+		margin-bottom: 10px;
+		text-align: left;
+	}
+	#gallery .right {
+		font-family: Inter;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 24px;
+		letter-spacing: -0.011em;
+		text-align: left;
+	}
+	#testimoni .subket {
+		font-family: Open Sans;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 40px;
+		letter-spacing: 0em;
+		width: auto;
+	}
+	#gallery .carousel-cell img {
+		height: 500px;
+		width: auto;
+		object-fit: cover;
+		border-radius: 12px;
+	}
+	#gallery .flickity-button {
+		background-color: #fff;
+		box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+		color: #00b4a9;
+		margin-left: -20px;
+	}
+	#gallery .next {
+		margin-right: -10px;
+	}
+	#gallery .flickity-button-icon {
+		width: 10px;
+		margin-left: 10px;
+	}
+	#room .flickity-button {
+		margin-left: -30px;
+	}
+	#room .next {
+		margin-right: -30px;
+	}
+	#room .flickity-button-icon {
+		width: 10px;
+		margin-left: 10px;
+	}
+}
